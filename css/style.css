@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+/* End of CSS reset */
+
+html {
+    background: rgba(0, 0, 0, 0) url("../images/office.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 238%;
+    padding-top: 400px;
+}
+
+h2 {
+    color: rgb(255, 255, 73);
+    font-size: 100%;
+    margin-top: 50px;
+}
+#query {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 50px;
+    border: solid 2px rgb(255, 255, 73);
+    width: 20%;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px
+}
+
+#search-results p {
+    color: black;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
